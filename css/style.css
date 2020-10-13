@@ -52,6 +52,10 @@ main > article > section {
 
 /* Header Styles */
 
+main > article > header {
+  background: linear-gradient(to right, #23517f, #80424d);
+}
+
 /* Button Styles */
 
 /* Navbar Styles */
