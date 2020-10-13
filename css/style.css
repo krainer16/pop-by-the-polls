@@ -40,10 +40,6 @@ main > article > section {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  /* Image should fill figure container of card that also has two columns */
-  .card.grid-1-2 img {
-    object-fit: cover;
-  }
 }
 
 /* Card Styles */
@@ -61,6 +57,15 @@ main > article > section {
 
 .card p {
   font-size: 17px;
+}
+
+/* This is only applied on Desktop */
+@media (min-width: 768px) {
+  /* Image should fill figure container of card that also has two columns */
+  .card.grid-1-2 img {
+    object-fit: cover;
+    height: 100%;
+  }
 }
 
 /* Header Styles */
