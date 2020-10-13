@@ -27,6 +27,10 @@ figure {
 
 /* Section Styles */
 
+main > article > section {
+  padding: 65px 20px;
+}
+
 /* Grid Styles */
 
 /* Card Styles */
