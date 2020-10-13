@@ -41,6 +41,14 @@ main > article > section {
   overflow: hidden;
 }
 
+.card section {
+  padding: 20px;
+}
+
+.card p {
+  font-size: 17px;
+}
+
 /* Header Styles */
 
 /* Button Styles */
