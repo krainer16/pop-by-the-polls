@@ -138,6 +138,35 @@ main > article > header > figure {
 
 /* Navbar Styles */
 
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > a > img {
+  height: 30px;
+  width: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navigation Mobile Styles */
+
+/* Navigation Desktop Styles */
+@media (min-width: 768px) {
+  nav ul {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
 /* Footer Styles */
 footer {
   background: black;
