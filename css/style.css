@@ -131,6 +131,7 @@ main > article > header.grid-1-2 {
 main > article > header > figure {
   display: flex;
   align-items: center;
+  padding: 20px 20px;
 }
 
 /* Button Styles */
@@ -140,4 +141,10 @@ main > article > header > figure {
 /* Footer Styles */
 footer {
   background: black;
+  color: white;
+  padding: 20px 20px;
+}
+
+footer a {
+  color: white;
 }
