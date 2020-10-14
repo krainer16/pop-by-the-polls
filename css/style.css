@@ -162,6 +162,10 @@ nav ul li a {
   font-weight: bold;
 }
 
+#hamburger {
+  display: none;
+}
+
 /* Navigation Mobile Styles */
 @media (max-width: 767px) {
   nav {
@@ -182,6 +186,10 @@ nav ul li a {
 
   nav ul li {
     padding: 20px;
+  }
+
+  #hamburger {
+    display: block;
   }
 }
 
