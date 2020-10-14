@@ -142,6 +142,7 @@ nav {
   height: 80px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav > a > img {
@@ -155,10 +156,19 @@ nav ul {
   margin: 0;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 /* Navigation Mobile Styles */
 
 /* Navigation Desktop Styles */
 @media (min-width: 768px) {
+  nav {
+    padding: 0 40px;
+  }
   nav ul {
     display: flex;
     max-width: 500px;
