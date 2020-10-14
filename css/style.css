@@ -166,6 +166,10 @@ nav ul li a {
   display: none;
 }
 
+#overlay {
+  display: none;
+}
+
 /* Navigation Mobile Styles */
 @media (max-width: 767px) {
   nav {
@@ -190,6 +194,16 @@ nav ul li a {
 
   #hamburger {
     display: block;
+    height: 30px;
+    width: auto;
+  }
+
+  #overlay {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    opacity: 0.3;
   }
 }
 
