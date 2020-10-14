@@ -35,6 +35,11 @@ main > article > section {
   main > article > section > header > p {
     max-width: 50%;
   }
+  main > article > section {
+    padding: 65px 40px;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
 }
 
 /* Grid Styles */
@@ -107,16 +112,25 @@ main > article > header a {
   display: inline-block;
 }
 
+main > article > header img {
+  opacity: 0.5;
+}
+
 @media (min-width: 768px) {
   main > article > header {
     height: unset;
-    padding: 100px 20px;
+    padding: 100px 40px;
   }
 }
 
 /* The main header should have a grid gap of 40px */
 main > article > header.grid-1-2 {
   grid-gap: 100px;
+}
+
+main > article > header > figure {
+  display: flex;
+  align-items: center;
 }
 
 /* Button Styles */
