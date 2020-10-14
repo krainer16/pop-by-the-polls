@@ -136,3 +136,8 @@ main > article > header > figure {
 /* Button Styles */
 
 /* Navbar Styles */
+
+/* Footer Styles */
+footer {
+  background: black;
+}
